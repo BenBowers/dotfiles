@@ -8,9 +8,10 @@ alias ccat='highlight --out-format=ansi' # Coloured cat for syntax highlighting
 alias mkdir='mkdir -pv'
 
 
-alias wget='wget -c"
+alias wget='wget -c'
 
 # Adds the ability to work with my dotfiles repo
 alias dotgit='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 export PATH=$PATH:/opt/cuda/bin
+
