@@ -14,5 +14,5 @@ alias wget='wget -c'
 alias dotgit='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 export PATH=$PATH:/opt/cuda/bin
-export PATH=$PATH:~/scripts
+export PATH=$PATH:~/scripts/scripts
 
