@@ -46,6 +46,8 @@ zle-line-init() {
 zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
+# Read my alias file for aliases and PATH variables
 [ -f "$HOME/.config/aliasrc.sh" ] && source "$HOME/.config/aliasrc.sh"
 
 export GPG_TTY=$(tty)
