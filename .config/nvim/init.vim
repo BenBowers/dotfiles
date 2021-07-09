@@ -42,7 +42,8 @@ set textwidth=120
 " Shows matching braces
 set showmatch
 
-
+" Disables automatic commenting on newline:
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Filetype detection
 filetype on
@@ -65,3 +66,4 @@ set showcmd
 
 " Set tabs to tabs for makefile
 autocmd Filetype makefile setlocal noexpandtab
+
