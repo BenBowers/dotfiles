@@ -12,6 +12,7 @@ endif
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
 Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
+Plug 'ap/vim-css-color'
 call plug#end()
 
 " disable vi compatibility ( emulating old bugs )
