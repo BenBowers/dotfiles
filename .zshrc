@@ -54,6 +54,7 @@ export GPG_TTY=$(tty)
 
 # Run nefetch for system detail
 neofetch
+
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
